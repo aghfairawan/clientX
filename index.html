@@ -11,7 +11,7 @@
   <a href="client-y.html">Go to Client Y</a>
   
   <script>
-    fetch('http://localhost:3000/cors')
+    fetch('cors-production-0c4c.up.railway.app')
       .then(response => response.json())
       .then(data => document.getElementById('message').textContent = data.message)
       .catch(error => document.getElementById('message').textContent = error);
