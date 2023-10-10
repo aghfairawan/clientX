@@ -11,7 +11,7 @@
   <button id='delete'>Delete Data</button>
   <button id='put'>Put Data</button>
   <script>
-    fetch('https://cors-production-0c4c.up.railway.app')
+    fetch('https://cors-production-0c4c.up.railway.app/client-x')
       .then(response => response.json())
       .then(data => document.getElementById('message').textContent = data.message)
       .catch(error => document.getElementById('message').textContent = error);
