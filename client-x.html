@@ -31,7 +31,7 @@
     });
 
     document.getElementById('post').addEventListener('click', function() {
-      fetch('cors-production-0c4c.up.railway.app/client-x', {
+      fetch('https://cors-production-0c4c.up.railway.app/client-x', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -45,7 +45,7 @@
     });
 
     document.getElementById('delete').addEventListener('click', function() {
-      fetch('http://localhost:3000/client-x', {
+      fetch('https://cors-production-0c4c.up.railway.app/client-x', {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',
@@ -59,7 +59,7 @@
     });
 
     document.getElementById('put').addEventListener('click', function() {
-      fetch('http://localhost:3000/client-x', {
+      fetch('https://cors-production-0c4c.up.railway.app/client-x', {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
